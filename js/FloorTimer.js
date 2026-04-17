@@ -51,11 +51,9 @@ class FloorTimer {
     }
 
     this.#timer.textContent = '';
-    setTimeout(() => {
-      this.#timer.classList.remove('floor-timer-visible');
-      this.col = 0;
-      this.placeTimer();
-    }, 500);
+    this.#timer.classList.remove('floor-timer-visible');
+    this.col = 0;
+    this.placeTimer();
   }
 
   /** An elevator has been dispatched for the required floor */
