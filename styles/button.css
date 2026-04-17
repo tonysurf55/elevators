@@ -1,0 +1,41 @@
+/*  Call Button */
+.btn-call {
+  width: var(--btn-width);
+  height: var(--btn-height);
+  border-radius: 4px;
+  border: 1px solid var(--color-btn-call-border);
+  background: var(--color-btn-call-bg);
+  color: var(--color-btn-call-text);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition:
+    background var(--transition-btn),
+    border-color var(--transition-btn),
+    color var(--transition-btn);
+  flex-shrink: 0;
+}
+
+.btn-call:hover:not(:disabled) {
+  border: 1px solid var(--color-btn-call-border-hover);
+  background: var(--color-btn-call-bg-hover);
+  color: var(--color-btn-call-text-hover);
+}
+
+/*  Waiting state */
+.btn-call.btn-call-waiting {
+  background: var(--color-btn-waiting-bg);
+  border-color: var(--color-btn-waiting-border);
+  color: var(--color-btn-waiting-text);
+  cursor: not-allowed;
+}
+
+/*  Arrived state */
+.btn-call.btn-call-arrived {
+  background: var(--color-btn-arrived-bg);
+  border-color: var(--color-btn-arrived-border);
+  color: var(--color-btn-arrived-text);
+  font-weight: 900;
+  cursor: not-allowed;
+}

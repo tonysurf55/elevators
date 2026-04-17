@@ -1,0 +1,51 @@
+:root {
+  /* Palette */
+  --color-bg:             #e2e4e9;
+  --color-text:           #000;
+  --color-grid-border:    #e2e4e9;
+  --color-grid-bg:        #fff;
+
+  --color-elevator-idle:     #000;
+  --color-elevator-moving:   #ff0000;
+  --color-elevator-arrived:  #27ae60;
+
+  --color-btn-call-bg:       #27ae60;
+  --color-btn-call-border:   #27ae60;
+  --color-btn-call-text:     #fff;
+
+  --color-btn-call-bg-hover:     #61d592;
+  --color-btn-call-border-hover: #27ae60;
+  --color-btn-call-text-hover:   #fff;
+
+  --color-btn-waiting-bg:    #ff0000;
+  --color-btn-waiting-border:#ff0000;
+  --color-btn-waiting-text:  #fff;
+
+  --color-btn-arrived-bg:    #e2e4e9;
+  --color-btn-arrived-border:#27ae60;
+  --color-btn-arrived-text:  #2ecc71;
+
+  --color-timer:             #000;
+
+  /*  Typography */
+  --font-mono:   'Share Tech Mono', monospace;
+  --font-sans:   'Barlow', sans-serif;
+
+  /*  Layout */
+  --labels-width:       100px;
+  --labels-padding:     10px;
+
+  --floor-height:       50px;
+  --cell-width:         100px;
+  --elevator-width:     30px;
+  --elevator-height:    30px;
+  --num-floors:         10;
+  --num-col:            5;
+
+  --btn-width:          96px;
+  --btn-height:         34px;
+  --timer-width:        64px;
+
+  /*  Motion */
+  --transition-btn:  0.25s ease;
+}

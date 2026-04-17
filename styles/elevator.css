@@ -1,0 +1,33 @@
+/* Elevator element */
+.elevator {
+  position: absolute;
+  z-index: 5;
+  width: var(--elevator-width);
+  height: var(--elevator-height);
+  bottom: 0;
+  left: 0;
+  
+  svg {
+    pointer-events: none;
+    width: var(--elevator-width);
+    height: var(--elevator-height);
+  }
+
+  &.elevator-idle {
+    svg, svg path {
+      fill: var(--color-elevator-idle);
+    }
+  }
+
+  &.elevator-moving {
+    svg, svg path {
+      fill: var(--color-elevator-moving);
+    }
+  }
+
+  &.elevator-arrived {
+    svg, svg path {
+      fill: var(--color-elevator-arrived);
+    }
+  }
+}
