@@ -7,7 +7,7 @@ This app simulate a 10 floors building with 5 elevators. Each floor has it's own
 
 ## Installation
 
-Since there App is in native JS and there is no framework. No installation is needed. Also in order to stay serverless and installationless I choose to not use compiled SCSS but only some nested CSS. 
+Since the app is in native JavaScript and there is no specificframework. No installation is needed. Also in order to keep it simple I choose not to use compiled SCSS but only some nested CSS. 
     
 ## Run Locally
 
